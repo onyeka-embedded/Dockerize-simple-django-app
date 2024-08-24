@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #1C1E26;
+            color: #fff;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 50px;
+            background-color: #111318;
+        }
+        header h1 {
+            font-size: 28px;
+            color: #FFD700;
+        }
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+        nav ul li {
+            margin-right: 30px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .hero-section {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 50px;
+        }
+        .hero-text {
+            max-width: 50%;
+        }
+        .hero-text h2 {
+            color: #FFD700;
+            font-size: 24px;
+        }
+        .hero-text h1 {
+            font-size: 48px;
+            margin: 20px 0;
+        }
+        .hero-text p {
+            color: #ccc;
+            line-height: 1.5;
+        }
+        .hero-text button {
+            padding: 10px 20px;
+            background-color: #FFD700;
+            border: none;
+            color: #000;
+            font-weight: bold;
+            cursor: pointer;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+        .hero-image {
+            max-width: 40%;
+        }
+        .hero-image img {
+            border-radius: 10px;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>About<span style="color:#FFD700">Me.</span></h1>
+        <nav>
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">SERVICE</a></li>
+                <li><a href="#">PORTFOLIO</a></li>
+                <li><a href="#">RESUME</a></li>
+                <li><a href="#">BLOG</a></li>
+                <li><a href="#">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero-section">
+        <div class="hero-text">
+            <h2>Hello, Welcome</h2>
+            <h1>I’m Onyeka Ekwunife</h1>
+            <p>I'm a result-oriented as well as process-oriented embedded systems engineer with focus on circuit/PCB design, IoT and firmware development.
+
+                I use different CAD design tools like; Kicad, Proteus etc., I work with different microcontrollers and development boards e.g 8051, AVR, STM32, Arduino, ESP32 and STM32 BLUEPILL and Nucleo boards.
+                
+                As someone who loves building from scratch, I've written some sensor's firmware drivers in C programming language while exploring major communication protocols; I2C, SPI, UART, 1-Wire etc.
+                
+                I'm also familiar with http and mqqt, As a computer engineer, I have a good background in backend development, focusing on Django for building REST API for IoT solutions.</p>
+            <button>Contact Us</button>
+        </div>
+        <div class="hero-image">
+            <img src="" alt="Onyeka">
+        </div>
+    </section>
+</body>
+</html>
